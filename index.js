@@ -1,1 +1,1 @@
-Vue.component('jb-v-loading', require('./JbLoading.vue').default);
+Vue.component('jb-loading', require('./JbLoading.vue').default);
