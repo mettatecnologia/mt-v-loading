@@ -28,8 +28,9 @@
     export default {
         components: { Loading },
         props:{
+            value:Boolean, 
             cor:{type:String, default:'primary'}, corFundo:{type:String, default:'white'}, opacidade:{type:Number, default:0.9}, 
-            value:Boolean, telaCheia:Boolean,
+            telaCheia:Boolean,
             podeCancelar:{type:Boolean, default:false}, 
         },
         data() {
