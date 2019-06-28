@@ -1,5 +1,5 @@
 {
-  "name": "jb-v-loading",
+  "name": "@metta/mt-v-loading",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbmchd/jb-v-loading.git"
+    "url": "git+https://github.com/mettatecnologia/mt-v-loading.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jbmchd/jb-v-loading/issues"
+    "url": "https://github.com/mettatecnologia/mt-v-loading/issues"
   },
-  "homepage": "https://github.com/jbmchd/jb-v-loading#readme",
+  "homepage": "https://github.com/mettatecnologia/mt-v-loading#readme",
   "dependencies": {
     "vue-loading-overlay": "^3.2.0"
   }
