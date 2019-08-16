@@ -1,7 +1,7 @@
 <template>
     <div class="vld-parent">
         <loading :active.sync="isLoading" :can-cancel="canCancel" :on-cancel="onCancel" :is-full-page="fullPage" :background-color="backgroundColor" :opacity="opacidade">
-            <v-layout align-center justify-center column >
+            <v-row align="center" justify="center" >
                 <div slot="before">
                     <slot name="before"></slot>
                 </div>
@@ -13,25 +13,25 @@
                 <div slot="after">
                     <slot name="after"></slot>
                 </div>
-            </v-layout>
-            
+            </v-row>
+
         </loading>
-        
+
     </div>
-    
+
 </template>
 
 <script>
     import Loading from 'vue-loading-overlay';
     import 'vue-loading-overlay/dist/vue-loading.css';
-    
+
     export default {
         components: { Loading },
         props:{
-            value:Boolean, 
-            cor:{type:String, default:'primary'}, corFundo:{type:String, default:'white'}, opacidade:{type:Number, default:0.9}, 
+            value:Boolean,
+            cor:{type:String, default:'primary'}, corFundo:{type:String, default:'white'}, opacidade:{type:Number, default:0.9},
             telaCheia:Boolean,
-            podeCancelar:{type:Boolean, default:false}, 
+            podeCancelar:{type:Boolean, default:false},
         },
         data() {
             return {
@@ -61,6 +61,6 @@
 
 <style>
     .vld-parent{ position: static; }
-    .vld-icon{width:75%} 
+    .vld-icon{width:75%}
 </style>
 
